@@ -13,4 +13,4 @@ object someObject:
 class Parent:
   object Child
 
-  def f(another: Parent): Child.type = another.Child
+  def f(another: Parent): another.Child.type = another.Child
